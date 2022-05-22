@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HeartBeatActivity"
+        tools:context=".HeartRateActivity"
         tools:deviceIds="wear"
         android:padding="@dimen/box_inset_layout_padding">
 
@@ -21,15 +21,15 @@
             android:columnCount="1"
             app:layout_boxedEdges="all">
 
-            <Button android:text="@string/btnStartHeartBeat"
+            <Button android:text="@string/btnStartHeartRate"
                     android:layout_width="100sp"
                     android:layout_height="48dp"
-                    android:id="@+id/btnStartHeartBeat"
+                    android:id="@+id/btnStartHeartRate"
                     android:textSize="11sp"
                     android:layout_gravity="center"/>
 
         <TextView
-                android:id="@+id/textViewHeartBeat"
+                android:id="@+id/textViewHeartRate"
                 android:layout_height="25sp"
                 android:layout_width="100sp"
                 android:textAlignment="center"

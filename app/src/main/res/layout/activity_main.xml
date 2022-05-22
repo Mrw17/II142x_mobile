@@ -20,10 +20,10 @@
                 android:columnCount="1"
                 app:layout_boxedEdges="all">
 
-            <Button android:text="@string/btnMainHearBeat"
+            <Button android:text="@string/btnMainHeartRate"
                     android:layout_width="110sp"
                     android:layout_height="48dp"
-                    android:id="@+id/btnGetHeartBeat"
+                    android:id="@+id/btnGetHeartRate"
                     android:textSize="11sp"
                     android:layout_gravity="center"/>
 

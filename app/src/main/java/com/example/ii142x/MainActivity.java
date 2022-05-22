@@ -4,12 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.TextView;
 import com.example.ii142x.databinding.ActivityMainBinding;
 
 public class MainActivity extends Activity {
 
-    Button btnHeartBeat;
+    Button btnHeartRate;
     Button btnGPS;
     Button btnPressure;
     Button btnAccelerometer;
@@ -27,8 +26,8 @@ public class MainActivity extends Activity {
     }
 
     private void setUpGUI(){
-        btnHeartBeat = findViewById(R.id.btnGetHeartBeat);
-        btnHeartBeat.setOnClickListener(v-> sendUserToHeartBeatActivity());
+        btnHeartRate = findViewById(R.id.btnGetHeartRate);
+        btnHeartRate.setOnClickListener(v-> sendUserToHeartRateActivity());
 
         btnGPS = findViewById(R.id.btnGetGPS);
         btnGPS.setOnClickListener(v-> sendUserToGPSActivity());
@@ -44,8 +43,8 @@ public class MainActivity extends Activity {
         
     }
 
-    private void sendUserToHeartBeatActivity() {
-        Intent intent = new Intent(this, HeartBeatActivity.class);
+    private void sendUserToHeartRateActivity() {
+        Intent intent = new Intent(this, HeartRateActivity.class);
         this.startActivity(intent);
     }
 

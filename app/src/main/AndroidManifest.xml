@@ -3,6 +3,7 @@
           package="com.example.ii142x">
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
 
     <uses-feature android:name="android.hardware.type.watch"/>
 
@@ -13,9 +14,9 @@
             android:supportsRtl="true"
             android:theme="@android:style/Theme.DeviceDefault">
         <activity
-                android:name=".HeartBeatActivity"
+                android:name=".HeartRateActivity"
                 android:exported="true"
-                android:label="@string/title_activity_heart_beat"/>
+                android:label="@string/title_activity_heart_rate"/>
 
         <uses-library
                 android:name="com.google.android.wearable"
