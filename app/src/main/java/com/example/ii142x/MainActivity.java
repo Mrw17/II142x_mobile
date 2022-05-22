@@ -1,6 +1,7 @@
 package com.example.ii142x;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -44,6 +45,8 @@ public class MainActivity extends Activity {
     }
 
     private void sendUserToHeartBeatActivity() {
+        Intent intent = new Intent(this, HeartBeatActivity.class);
+        this.startActivity(intent);
     }
 
     private void sendUserToGPSActivity() {

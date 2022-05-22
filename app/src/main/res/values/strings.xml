@@ -5,11 +5,20 @@
     values-round/strings.xml for round devices.
     -->
 
+    <!-- Generics -->
+    <string name="back">back</string>
+    <string name="zero_number">0</string>
+
     <!-- activity_main -->
     <string name="btnMainHearBeat">Heartbeat</string>
     <string name="btnMainGPS">GPS</string>
     <string name="btnMainPressure">Pressure</string>
     <string name="btnMainAccelerator">Accelerator</string>
     <string name="btnMainPhoto">Photo</string>
+
+    <!-- activity_heart_beat -->
+    <string name="title_activity_heart_beat">Heartbeat</string>
+    <string name="btnStartHeartBeat">Start reading Heartbeat</string>
+    <string name="btnStopHeartBeat">Stop reading heartbeat</string>
 
 </resources>
